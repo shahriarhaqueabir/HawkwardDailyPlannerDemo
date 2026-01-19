@@ -1,0 +1,71 @@
+{
+  "name": "Daily Planner Pro",
+  "short_name": "Daily Planner",
+  "description": "A lightweight, offline-first daily planner built as a single-file web app with Kanban-style task management, drag & drop workflow, and visual reports.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-wide.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "description": "Daily Planner Pro dashboard overview"
+    },
+    {
+      "src": "/assets/screenshot-narrow.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "description": "Daily Planner Pro mobile view"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open Daily Planner",
+      "short_name": "Planner",
+      "description": "Quick access to your daily planner",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["productivity"],
+  "prefer_related_applications": false
+}
